@@ -186,6 +186,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  margin: 70px 0 0 0;
 }
 .feynman__link{
   position: absolute;
@@ -210,36 +211,35 @@
   box-sizing: border-box;
   padding: 90px 0;
 }
-.section-title_theme-dark{
+.section-title_theme_dark{
   color: #fff;
-  line-height: 1.15;
+  /*line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
   margin: 0 0 20px 0;
   text-align: center;
-  width: 60%;
+  width: 60%;*/
 }
-.section-subtitle_theme-dark{
+.section-subtitle_theme_dark{
   color: #fff;
-  line-height: 34px;
+  z-index: 2;
+  /*line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   width: 60%;
   margin:0;
-  text-align: center;
+  text-align: center;*/
 }
-.table_theme-dark{
+.table_theme_dark{
   z-index: 2;
 }
 /* и элемента с модификатором вида ключ-значение */
-.table__cell_theme-dark {
+.table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-right: 0;
-  margin-top: 80px;
+  margin: 80px 0 0 0;
   list-style: none;
   padding: 0;
-  flex-direction: row;
 }
 .kaufman__triangle{
   background: url(../images/kaufman-triangle.svg) no-repeat;
@@ -251,16 +251,18 @@
   background-size: cover;
   z-index: 1;
 }
-.table__heading_theme-dark{
-  line-height: 1.15;
+.table__heading_theme_dark{
+  /*line-height: 1.15;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 600;*/
+  color: white;
 }
-.table__text_theme-dark{
-  margin: 20px 0 0 0;
+.table__text_theme_dark{
+  /*margin: 20px 0 0 0;
   font-size: 18px;
   font-weight: normal;
-  line-height: 1.12;
+  line-height: 1.12;*/
+  color: white;
 }
 .footer{
   min-height: 350px;
@@ -275,11 +277,13 @@
   display: flex;
   justify-content: space-between;
 }
-.footer__column_content-copyright{
-  flex-basis: 711px;
-  flex-direction: column;
-  justify-content: space-between;
+.footer__column{
   display: flex;
+  flex-direction: column;
+}
+.footer__column_content_copyright{
+  flex-basis: 711px;
+  justify-content: space-between;
 }
 .logo_place_footer{
   width: 228px;
@@ -292,7 +296,7 @@
   font-weight: normal;
   margin: 18px 0;
 }
-.footer__column_content-info{
+.footer__column_content_info{
   padding: 0;
 }
 .footer__column-heading{
@@ -323,7 +327,7 @@
 .footer__column-link:hover{
   text-decoration: underline;
 }
-.footer__column_content-social{
+.footer__column_content_social{
   padding: 0;
 }
 .footer__social-icon{
