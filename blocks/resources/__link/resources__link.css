@@ -1,11 +1,9 @@
-.resources__logo-zone{
-    width: 270px;
-    height: 38px;
+.resources__link{
     justify-content: space-around;
     display: flex;
     transition: opacity .3s linear, transform .3s linear;
   }
-  .resources__logo-zone:hover{
+  .resources__link:hover{
     opacity: 0.7;
     transform: scale(1.2);
   }
