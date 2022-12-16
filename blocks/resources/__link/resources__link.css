@@ -1,5 +1,4 @@
 .resources__link{
-    justify-content: space-around;
     display: flex;
     transition: opacity .3s linear, transform .3s linear;
   }
